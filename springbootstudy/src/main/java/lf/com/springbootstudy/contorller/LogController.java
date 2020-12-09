@@ -16,12 +16,24 @@ import java.util.Map;
  * @Version 1.0
  */
 @RestController
-public class UserController {
+public class LogController {
     @Autowired
     private UserService userService;
-    @RequestMapping("/getUsers")
-    public List<User> getUsers() {
-        List<User> users = userService.getUsers();
+    @Autowired
+    private LogService logService;
+    @RequestMapping("/getLogs")
+    public List<Map> getLogs() {
+        List<Map> users = logService.getLogs();
+        return users;
+    }
+    @RequestMapping("/getLogs1")
+    public List<Map> getLogs1() {
+        List<Map> users = logService.getLogs1();
+        return users;
+    }
+    @RequestMapping("/getLogs2")
+    public List<Map> getLogs2() {
+        List<Map> users = logService.getLogs2();
         return users;
     }
 }
