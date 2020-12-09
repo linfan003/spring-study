@@ -3,9 +3,9 @@
 <mapper namespace="lf.com.springbootstudy.mapper.LogMapper">
 
     <resultMap id="BaseResultMap" type="lf.com.springbootstudy.domain.Log">
-        <result column="id" jdbcType="INTEGER" property="id" />
-        <result column="name" jdbcType="VARCHAR" property="name" />
-        <result column="time" jdbcType="VARCHAR" property="time" />
+        <result column="id" jdbcType="INTEGER" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="time" jdbcType="VARCHAR" property="time"/>
     </resultMap>
     <select id="getLogs" resultMap="BaseResultMap">
 select *from log
