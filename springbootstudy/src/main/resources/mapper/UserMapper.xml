@@ -12,4 +12,27 @@
     <select id="getUsers" resultMap="BaseResultMap">
         select * from user
     </select>
+
+    <select id="getUserByIds" resultMap="BaseResultMap">
+        select * from user
+        <where>
+            id  in
+        <foreach collection="ids" item="item" open="(" index="index" close=")" separator=",">
+            #{item}
+        </foreach>
+        </where>
+    </select>
+
+    <select id="getUserById" parameterType="int" resultMap="BaseResultMap">
+        select * from user
+        <where>
+            id=#{id}
+        </where>
+    </select>
+    <insert id="save" parameterType="lf.com.springbootstudy.domain.User">
+        INSERT INTO `user`
+        ( `userName`, `passWord`, `birthday`, `sex`, `address`)
+        VALUES
+         (#{userName}, #{passWord}, #{birthday},#{sex},#{address});
+    </insert>
 </mapper>
