@@ -1,11 +1,13 @@
 package lf.com.springbootstudy.domain;
 
+import java.io.Serializable;
+
 /**
  * @Author linfan
  * @Date 2020/12/3 16:07
  * @Version 1.0
  */
-public class User {
+public class User implements Serializable {
     private Integer id;
     private String userName;
     private String passWord;
