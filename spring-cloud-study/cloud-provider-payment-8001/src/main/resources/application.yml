@@ -15,4 +15,4 @@ mybatis:
   ##mapper文件
   mapper-locations: classpath:mapper/*.xml
   #所有类所在包
-  type-aliases-package: com.lf.springclould.domain.Payment
+  type-aliases-package: com.lf.common.domain.Payment

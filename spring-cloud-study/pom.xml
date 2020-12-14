@@ -11,6 +11,7 @@
     <modules>
         <module>cloud-provider-payment-8001</module>
         <module>cloud-common</module>
+        <module>cloud-consumer-order-8002</module>
     </modules>
 
 

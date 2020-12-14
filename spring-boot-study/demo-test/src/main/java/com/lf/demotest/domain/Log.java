@@ -1,0 +1,36 @@
+package com.lf.demotest.domain;
+
+/**
+ * @Author linfan
+ * @Date 2020/12/9 12:02
+ * @Version 1.0
+ */
+public class Log {
+    private int id;
+    private String name;
+    private String time;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+}

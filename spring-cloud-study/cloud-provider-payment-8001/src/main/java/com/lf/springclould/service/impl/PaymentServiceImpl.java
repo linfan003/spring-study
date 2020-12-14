@@ -1,6 +1,6 @@
 package com.lf.springclould.service.impl;
 
-import com.lf.springclould.domain.Payment;
+import com.lf.common.domain.Payment;
 import com.lf.springclould.mapper.PaymentMapper;
 import com.lf.springclould.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;

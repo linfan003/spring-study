@@ -1,6 +1,6 @@
 package com.lf.springclould.service;
 
-import com.lf.springclould.domain.Payment;
+import com.lf.common.domain.Payment;
 
 /**
  * @Author linfan

@@ -1,6 +1,6 @@
 package com.lf.springclould.mapper;
 
-import com.lf.springclould.domain.Payment;
+import com.lf.common.domain.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Component;

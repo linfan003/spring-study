@@ -1,7 +1,7 @@
 package com.lf.springclould.controller;
 
-import com.lf.domain.CommonResult;
-import com.lf.springclould.domain.Payment;
+import com.lf.common.domain.CommonResult;
+import com.lf.common.domain.Payment;
 import com.lf.springclould.service.PaymentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
